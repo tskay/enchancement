@@ -3,6 +3,8 @@ const cards = document.querySelectorAll(".card"),
     flipsTag = document.querySelector(".flips b"),
     marksTag = document.querySelector(".marks b"),
     refreshBtn = document.querySelector(".details button");
+const failureSound = new Audio("failure.mp3");
+const fuiyohSound = new Audio("uncle-roger-fuiyoh.mp3");
 
 let maxTime = 50;
 let timeLeft = maxTime;
@@ -16,6 +18,8 @@ function initTimer() {
     if (timeLeft <= 0) {
         setTimeout(() => {
             document.getElementById("gameover").style.display = "block";
+            failureSound.play();
+
 
         }, 500);
         return clearInterval(timer);
@@ -54,6 +58,8 @@ function matchCards(img1, img2) {
         if (matchedCard == 8 && timeLeft > 0) {
             setTimeout(() => {
                 document.getElementById("winbox").style.display = "block";
+                fuiyohSound.play();
+
             }, 1000);
 
             return clearInterval(timer);
