@@ -582,6 +582,13 @@ tbody tr:nth-of-type(odd) {
     height: 100%; /* Adjust as needed */
 }
 
+.event-desc-wrap3 {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    height: 100%; /* Adjust as needed */
+}
+
 .event-desc h3,
 .event-desc h5 {
     color: white;
