@@ -584,7 +584,7 @@ tbody tr:nth-of-type(odd) {
 
 .event-desc-wrap3 {
     display: flex;
-    align-items: center; /* Vertical centering */
+    /*align-items: center;*/ /* Vertical centering */
     justify-content: center; /* Horizontal centering */
     height: 100%; /* Adjust as needed */
 }
