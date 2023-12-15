@@ -223,6 +223,18 @@ header {
     text-align: center;
 }
 
+.centre_text {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    height: 100%; /* Adjust as needed */
+}
+
+.my-video {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .page-header-wrap {
     background: linear-gradient(to right, rgb(61, 69, 102), rgba(61, 69, 102, 0.7)), url('banner.jpg');
     width: 100%;
