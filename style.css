@@ -576,6 +576,12 @@ tbody tr:nth-of-type(odd) {
     justify-content: flex-end;
 }
 
+.event-desc-wrap2 {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    height: 100%; /* Adjust as needed */
+}
+
 .event-desc h3,
 .event-desc h5 {
     color: white;
@@ -610,6 +616,20 @@ tbody tr:nth-of-type(odd) {
 
 .livedemo-3 {
     background-image: url("chatbot.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.livedonate-1 {
+    background-image: url("spay.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.livedonate-2 {
+    background-image: url("sdgdonate.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
